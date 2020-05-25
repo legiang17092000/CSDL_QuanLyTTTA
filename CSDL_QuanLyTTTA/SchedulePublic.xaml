@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="SchedulePublic" Height="auto" Width="auto">
     <Grid>
-        
+        <Label Content="hihihi"></Label>
     </Grid>
 </Window>
