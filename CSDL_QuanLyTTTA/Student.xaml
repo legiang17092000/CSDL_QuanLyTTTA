@@ -35,11 +35,7 @@
                     </MenuItem>
                 </Menu>
             </Grid>
-            <Grid Grid.Column="2">
-                <Menu>
-                    <MenuItem Header="Tài liệu" FontSize="20"></MenuItem>
-                </Menu>
-            </Grid>
+            
         </Grid>
     </Grid>
 </Window>
