@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:CSDL_QuanLyTTTA"
         mc:Ignorable="d"
         Title="SchedulePublic" Height="auto" Width="auto">
-    <Grid>
-        <Label Content="hihihi"></Label>
+    <Grid>       
+            <ListView Margin="10" Name="lvWeek">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Weekday" Width="150" DisplayMemberBinding="{Binding Weekday}" />
+                        <GridViewColumn Header="Time" Width="150" DisplayMemberBinding="{Binding Time}" />
+                        <GridViewColumn Header="Class" Width="150" DisplayMemberBinding="{Binding Class}" />
+                        <GridViewColumn Header="Room" Width="150" DisplayMemberBinding="{Binding Room}" />                        
+                </GridView>
+                </ListView.View>
+            </ListView>
+        
     </Grid>
 </Window>
