@@ -17,7 +17,7 @@ namespace CSDL_QuanLyTTTA
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    /// </summary> dgfdf
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -30,6 +30,8 @@ namespace CSDL_QuanLyTTTA
             //this.Hide();
             //main form2 = new main();
             //form2.Show();
+            //rdgbxfb
+            hjmn
           
         }
 
