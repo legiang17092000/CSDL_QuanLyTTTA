@@ -115,7 +115,7 @@ namespace CSDL_QuanLyTTTA
             }
             catch (Exception ex)
             {
-                //MessageBox.Show("Phầ mềm mất kết nối với cơ sở dữ liệu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.None);
+                //MessageBox.Show("Phần mềm mất kết nối với cơ sở dữ liệu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.None);
             }
 
         }
