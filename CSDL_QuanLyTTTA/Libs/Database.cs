@@ -23,6 +23,7 @@ namespace CSDL_QuanLyTTTA.Libs
         // Design theo Singleton Pattern: 1 Class chỉ có duy nhất 1 Instance được khởi tạo
         private static Database data; //CTR + R + E để tự sinh code phần dưới mà không cần gõ
         public static Database Data //Instance duy nhất của Class được tạo ra
+            //test
         {
             get
             {
