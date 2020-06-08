@@ -39,14 +39,13 @@
                 <Grid Grid.Column="0">
                     <Label FontSize="20" Content="Password: " VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
                 </Grid>
-                <Grid Grid.Column="1">
-                    <PasswordBox Name="txtPass" FontSize="20" Margin="20 20 60 20" PasswordChar="*" MinWidth="10"/>
-                </Grid>
+                <Grid Grid.Column="1"/>
             </Grid>
         </Grid>
         <Grid Grid.Row="3" >
             <Button x:Name="btnLogin" FontSize="25" Padding="15" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Login" Foreground="Red"></Button>
         </Grid>
+        <TextBox x:Name="txtPassWord" FontSize="20" Margin="173,23,50,17" Grid.Row="2"/>
 
 
     </Grid>
