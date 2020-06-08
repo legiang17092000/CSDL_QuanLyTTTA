@@ -44,7 +44,7 @@ namespace CSDL_QuanLyTTTA
             }
             if(txtUserName.Text.Trim()!=""&& txtPassWord.Text.Trim()!="")
             {
-                /*kiemTraDangNhap();*/
+                kiemTraDangNhap(); //helloGiang
             }
         }
         public void kiemTraDangNhap()
