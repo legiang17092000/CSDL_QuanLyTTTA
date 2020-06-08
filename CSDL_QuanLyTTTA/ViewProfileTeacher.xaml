@@ -30,7 +30,7 @@
                 <Label Content="Name: " FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
             </Grid>
             <Grid Grid.Column="1">
-                <TextBlock Name="txtNameTc"></TextBlock>
+                <TextBlock></TextBlock>
             </Grid>
         </Grid>
         <Grid Grid.Row="2">
@@ -42,7 +42,7 @@
                 <Label Content="Age: " FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
             </Grid>
             <Grid Grid.Column="1">
-                <TextBlock Name="txtAgeTc"></TextBlock>
+                <TextBlock></TextBlock>
             </Grid>
         </Grid>
         <Grid Grid.Row="3">
@@ -54,7 +54,7 @@
                 <Label Content="Gender: " FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
             </Grid>
             <Grid Grid.Column="1">
-                <TextBlock Name="txtGenderTc"></TextBlock>
+                <TextBlock></TextBlock>
             </Grid>
         </Grid>
         <Grid Grid.Row="4">
@@ -66,7 +66,7 @@
                 <Label Content="Email: " FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
             </Grid>
             <Grid Grid.Column="1">
-                <TextBlock Name="txtEmageTc"></TextBlock>
+                <TextBlock></TextBlock>
             </Grid>
         </Grid>
 
@@ -79,7 +79,7 @@
                 <Label Content="Phone: " FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
             </Grid>
             <Grid Grid.Column="1">
-                <TextBlock Name="txtPhone"></TextBlock>
+                <TextBlock></TextBlock>
             </Grid>
         </Grid>
 
@@ -92,7 +92,7 @@
                 <Label Content="Certificate: " FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
             </Grid>
             <Grid Grid.Column="1">
-                <TextBlock Name="txtCertificateTc"></TextBlock>
+                <TextBlock></TextBlock>
             </Grid>
         </Grid>
 
@@ -105,7 +105,7 @@
                 <Label Content="Introduction: " FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
             </Grid>
             <Grid Grid.Column="1">
-                <TextBlock Name="txtIntrodutionTc"></TextBlock>
+                <TextBlock></TextBlock>
             </Grid>
         </Grid>
 
@@ -118,7 +118,7 @@
                 <ColumnDefinition Width="1*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Grid Grid.Column="3">
-                <Button Content="Exit" Margin="8" FontSize="30" Name="btnExitViewProTc"></Button>
+                <Button Content="Exit" Margin="8" FontSize="30"></Button>
             </Grid>
         </Grid>
     </Grid>
