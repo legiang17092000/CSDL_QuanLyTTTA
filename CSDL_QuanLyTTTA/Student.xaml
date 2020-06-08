@@ -8,6 +8,7 @@
         Title="Student" Height="auto" Width="auto">
     <Grid>
         <Grid.RowDefinitions>
+           
             <RowDefinition Height="1*"></RowDefinition>
             <RowDefinition Height="8*"></RowDefinition>
         </Grid.RowDefinitions>

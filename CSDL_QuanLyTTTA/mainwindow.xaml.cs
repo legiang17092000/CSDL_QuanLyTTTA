@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,7 +17,7 @@ namespace CSDL_QuanLyTTTA
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    /// </summary> dgfdf
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -107,17 +105,6 @@ namespace CSDL_QuanLyTTTA
                         Properties.Settings.Default.Save();
                     }*/
 
-                }
-                else
-                {
-                    MessageBox.Show("MSSV hoặc EMAIL không đúng!");
-                }
-            }
-            catch (Exception ex)
-            {
-                //MessageBox.Show("Phần mềm mất kết nối với cơ sở dữ liệu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.None);
-            }
-
-        }
+        
     }
 }
