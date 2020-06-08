@@ -29,7 +29,7 @@
                 <Label Content="Name: " FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
             </Grid>
             <Grid Grid.Column="1">
-                <TextBlock></TextBlock>
+                <TextBlock Name="tbNameSt"></TextBlock>
             </Grid>
         </Grid>
         <Grid Grid.Row="2">
