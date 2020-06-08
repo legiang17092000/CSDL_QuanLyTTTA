@@ -41,7 +41,7 @@
                 <Label Content="Gender: " FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
             </Grid>
             <Grid Grid.Column="1">
-                <TextBlock></TextBlock>
+                <TextBlock Name="txtGenderSt"></TextBlock>
             </Grid>
         </Grid>
         <Grid Grid.Row="3">
@@ -53,7 +53,7 @@
                 <Label Content="ID: " FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
             </Grid>
             <Grid Grid.Column="1">
-                <TextBlock></TextBlock>
+                <TextBlock Name="txtIdSt"></TextBlock>
             </Grid>
         </Grid>
         <Grid Grid.Row="4">
@@ -65,7 +65,7 @@
                 <Label Content="Age: " FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
             </Grid>
             <Grid Grid.Column="1">
-                <TextBlock></TextBlock>
+                <TextBlock Name="txtAgeSt"></TextBlock>
             </Grid>
         </Grid>
 
@@ -78,7 +78,7 @@
                 <Label Content="Email: " FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
             </Grid>
             <Grid Grid.Column="1">
-                <TextBlock></TextBlock>
+                <TextBlock Name="txtEmailSt"></TextBlock>
             </Grid>
         </Grid>
 
@@ -91,7 +91,7 @@
                 <Label Content="Phone: " FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
             </Grid>
             <Grid Grid.Column="1">
-                <TextBlock></TextBlock>
+                <TextBlock Name="txtPhoneSt"></TextBlock>
             </Grid>
         </Grid>
         
@@ -103,7 +103,7 @@
                 <ColumnDefinition Width="1*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Grid Grid.Column="3">
-                <Button Content="Exit" Margin="8" FontSize="30"></Button>
+                <Button Content="Exit" Margin="8" FontSize="30" Name="btnExitSt"></Button>
             </Grid>
         </Grid>
     </Grid>

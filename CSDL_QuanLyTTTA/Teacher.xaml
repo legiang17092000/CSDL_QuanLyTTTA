@@ -21,7 +21,7 @@
             <Grid Grid.Column="0">
                 <Menu>
                     <MenuItem Header="Hệ thống" FontSize="20">
-                        <MenuItem Header="Xem profile"></MenuItem>
+                        <MenuItem Header="Profile"></MenuItem>
                         <MenuItem Header="Đổi mật khẩu"></MenuItem>
                         <MenuItem Header="Thoát"></MenuItem>
                     </MenuItem>

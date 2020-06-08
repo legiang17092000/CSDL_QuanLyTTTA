@@ -20,7 +20,7 @@
             <Grid Grid.Column="0">
                 <Menu>
                     <MenuItem Header="System" FontSize="20">
-                        <MenuItem Header="View profile"></MenuItem>
+                        <MenuItem Header="Profile"></MenuItem>
                         <MenuItem Header="Change Password"></MenuItem>
                         <MenuItem Header="Exit"></MenuItem>
                     </MenuItem>
