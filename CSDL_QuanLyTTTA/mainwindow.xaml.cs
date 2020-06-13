@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,7 +42,7 @@ namespace CSDL_QuanLyTTTA
                 MessageBox.Show("Vui lòng nhập UserName!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.None);
                 txtPassWord.Focus();
             }
-            if(txtUserName.Text.Trim()!=""&& txtPassWord.Text.Trim()!="")
+            if (txtUserName.Text.Trim() != "" && txtPassWord.Text.Trim() != "")
             {
                 kiemTraDangNhap(); //helloGiang
             }
@@ -66,10 +68,10 @@ namespace CSDL_QuanLyTTTA
             try
             {
                 // Thi hành Stored Procedure có tên là "Chổ này trống hehe" và để dữ liệu về table 
-                table = Libs.Database.Data.ExcuteToDataTable("tblUsername", CommandType.StoredProcedure, sqlParams);
-                if(table.Rows.Count>0)
+                table = Libs.Database.Data.ExcuteToDataTable("CheckLogin", CommandType.StoredProcedure, sqlParams);
+                if (table.Rows.Count > 0)
                 {
-                    MessageBox.Show("Login success!");
+                    MessageBox.Show("Login success");
                 }
                 // Nếu có dữ liệu trả về thì
                 if (table.Rows.Count > 0)
@@ -105,6 +107,19 @@ namespace CSDL_QuanLyTTTA
                         Properties.Settings.Default.Save();
                     }*/
 
-        
+
+                }
+                else
+                {
+                    MessageBox.Show("MSSV hoặc EMAIL không đúng!");
+                }
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show("Phần mềm mất kết nối với cơ sở dữ liệu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.None);
+            }
+
+        }
     }
-}
+ }
+
