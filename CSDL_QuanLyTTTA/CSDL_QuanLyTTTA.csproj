@@ -65,6 +65,7 @@
       <DependentUpon>ClassManagement.xaml</DependentUpon>
     </Compile>
     <Compile Include="Libs\Database.cs" />
+    <Compile Include="Libs\Username.cs" />
     <Compile Include="SchedulePrivate.xaml.cs">
       <DependentUpon>SchedulePrivate.xaml</DependentUpon>
     </Compile>

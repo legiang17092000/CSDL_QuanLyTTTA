@@ -43,7 +43,7 @@
             </Grid>
         </Grid>
         <Grid Grid.Row="3" >
-            <Button x:Name="btnLogin" FontSize="25" Padding="15" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Login" Foreground="Red"></Button>
+            <Button x:Name="btnLogin" FontSize="25" Padding="15" VerticalAlignment="Bottom" HorizontalAlignment="Center" Content="Login" Foreground="Red" Margin="240,0,240,24" Click="btnLogin_Click_1"></Button>
         </Grid>
         <TextBox x:Name="txtPassWord" FontSize="20" Margin="173,23,50,17" Grid.Row="2"/>
 

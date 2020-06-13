@@ -27,7 +27,7 @@ namespace CSDL_QuanLyTTTA
             InitializeComponent();
         }
 
-        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        private void btnLogin_Click_1(object sender, RoutedEventArgs e)
         {
             //this.Hide();
             //main form2 = new main();
@@ -120,6 +120,8 @@ namespace CSDL_QuanLyTTTA
             }
 
         }
+
+       
     }
  }
 
